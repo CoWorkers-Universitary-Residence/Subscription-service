@@ -1,1 +1,1 @@
-web: java -jar build/libs/subscription-service-0.0.1-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar server/subscription-service-runner.jar --port $PORT target/*.war
