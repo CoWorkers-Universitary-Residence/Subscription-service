@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar server/subscription-service-runner.jar --port $PORT target/*.war
+web: java -Dserver.port=$PORT -jar subscription-service/target/subscription-service-1.0.0-SNAPSHOT.jar
